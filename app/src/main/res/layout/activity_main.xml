@@ -1,0 +1,448 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:weightSum="5"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:id="@+id/editText11"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText12"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/editText13"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText14"
+            android:layout_column="11" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText15"
+            android:layout_column="12" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText16"
+            android:layout_column="12" />
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText21"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText22"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText23"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:text="0"
+            android:layout_weight="1"
+            android:id="@+id/editText24"
+            android:layout_column="11" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText25"
+            android:layout_column="12" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText26"
+            android:layout_column="12" />
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText31"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText32"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText33"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText34"
+            android:layout_column="11" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText35"
+            android:layout_column="12" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText36"
+            android:layout_column="12" />
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText41"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText42"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText43"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText44"
+            android:layout_column="11" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText45"
+            android:layout_column="12" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText46"
+            android:layout_column="12" />
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText51"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="0"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText52"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:layout_weight="1"
+            android:id="@+id/editText53"
+            android:layout_column="8" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText54"
+            android:layout_column="11" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText55"
+            android:layout_column="12" />
+        <EditText
+            android:layout_width="0dp"
+            android:text="0"
+            android:layout_height="wrap_content"
+
+            android:inputType="numberSigned"
+            android:digits="1234567890./-"
+            android:ems="10"
+            android:layout_weight="1"
+            android:id="@+id/editText56"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:text="3"
+            android:layout_weight="1"
+            android:id="@+id/editTextJie"
+            android:layout_column="8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交阶数"
+            android:id="@+id/btnUpJie"
+            android:layout_column="8" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:text="矩阵的秩"
+            android:id="@+id/textViewRank"
+            android:layout_column="8" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="行列式"
+            android:id="@+id/textViewHang"
+            android:layout_column="8" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="求逆/求秩"
+            android:id="@+id/btnNi"
+            android:layout_column="8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="求行列式"
+            android:id="@+id/btnHang"
+            android:layout_column="8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带b的化简"
+            android:id="@+id/btnHangToSimWithB"
+            android:layout_column="11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清零"
+            android:id="@+id/btnToZero"
+            android:layout_column="15" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="化成小数"
+            android:id="@+id/btnToDouble"
+            android:layout_column="8" />
+    </TableRow>
+
+
+
+</TableLayout>
+</ScrollView>
